@@ -31,7 +31,8 @@ The purpose of the project is to classify 45 different shoe models from images o
 ## How to test the shoe CNN model
 - To test the model use livetest_shoeCNN.ipynb, and on the last cell change the first line to the path to the image you want to test on. Included in the repo are some test images in the testimages folder. If using a new image for optimal accuracy the shoe should be flat and a side profile with only one shoe in the foreground.
 
-Example output:
+### Example output:
+
 ![Example output](testimages/example_output.jpg)
 
 ## Accuracy of model
