@@ -9,11 +9,11 @@ The purpose of the project is to classify 45 different shoe models from images o
 - shoe_image_resizer.py
   - This script uses a bounding rectangle to crop an image to just the shoe subject, it then resizes the image with padding instead of stretching to the 190x100 resolution we trained our CNN model on
 - image_preprocess.py
- - Preprocesses the collection of images to add transformations such as brighten, dim, flip, and grayscale
+  - Preprocesses the collection of images to add transformations such as brighten, dim, flip, and grayscale
 - shoeCNN.ipynb
- - This notebook contains the model architecture and the training/validation of the model. At the bottom of the notebook is also a section for live testing
+  - This notebook contains the model architecture and the training/validation of the model. At the bottom of the notebook is also a section for live testing
 - livetest_shoeCNN.ipynb
- - This notebook contains just the livetesting portion of the previous notebook
+  - This notebook contains just the livetesting portion of the previous notebook
 
 ## Dependencies
 - torch>=2.1.2
