@@ -1,4 +1,5 @@
 # Shoe Model Classifier using a Convoluted Neural Network
+### By Jesse Coulson and Tamir Shem Tov
 The purpose of the project is to classify 45 different shoe models from images of their side profiles using a CNN. With the model we created you can test the classification with a shoe of any size resolution 190x100 or above with any background. To get optimal performance background should not interrupt the shoe too much and should have a flat side profile.
 
 ## Project Structure
