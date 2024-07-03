@@ -38,3 +38,15 @@ The purpose of the project is to classify 45 different shoe models from images o
 
 ## Accuracy of model
 - The accuracy of the model for the brand is 93% and the specific shoe model is 76%. The reason we separated the brand and shoe model is because for some of the brands with models that had smaller sample size it can start to predict other models of the same brand. Some of the models also were extremely similar to one another within a brand. These issues would be addressed by obtaining more data of these shoe models to reduce class imbalance and provide more variance to train on, but as is we are satisfied with the brand accuracy.
+
+## Future Work
+### Model Improvements
+- Transfer Learning: Testing pre-trained models and fine tuning them on our dataset.
+- Experimenting more with model's architecture.
+
+### Dataset
+- Expasion: In attempt to increase model prediction, we'll have to gather more images from more sources. With increased volume of images we can reduce class imbalance and potentially improve the model's prediction.
+
+### Real Time Recognition
+- Mobile App: Creating a mobile app that uses the our model to recognize shoe models using a phone's camera.
+- Web App: Developing a web app interface where users can upload shoe images to get predictions.
